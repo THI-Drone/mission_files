@@ -31,9 +31,22 @@
                 "data": {
                     "target_coordinate_lat": 47.397850,
                     "target_coordinate_lon": 8.545457,
-                    "pre_wait_time_ms": 3000,
+                    "pre_wait_time_ms": 1000,
                     "post_wait_time_ms": 0,
                     "cruise_height_cm": 2000,
+                    "target_height_cm": 800,
+                    "horizontal_speed_mps": 4.0,
+                    "vertical_speed_mps": 2.0
+                }
+            },
+            {
+                "type": "waypoint",
+                "data": {
+                    "target_coordinate_lat": 47.398424,
+                    "target_coordinate_lon": 8.544653,
+                    "pre_wait_time_ms": 0,
+                    "post_wait_time_ms": 0,
+                    "cruise_height_cm": 1500,
                     "target_height_cm": 500,
                     "horizontal_speed_mps": 4.0,
                     "vertical_speed_mps": 2.0
@@ -44,6 +57,19 @@
                 "data": {
                     "timeout_ms": 30000
                 }
+            },
+            {
+                "type": "waypoint",
+                "data": {
+                    "target_coordinate_lat": 47.398424,
+                    "target_coordinate_lon": 8.544653,
+                    "pre_wait_time_ms": 0,
+                    "post_wait_time_ms": 10000,
+                    "cruise_height_cm": 500,
+                    "target_height_cm": 100,
+                    "horizontal_speed_mps": 4.0,
+                    "vertical_speed_mps": 2.0
+                }
             }
         ],
         "1": [
@@ -53,9 +79,9 @@
                     "target_coordinate_lat": 47.397850,
                     "target_coordinate_lon": 8.545457,
                     "pre_wait_time_ms": 0,
-                    "post_wait_time_ms": 10000,
-                    "cruise_height_cm": 500,
-                    "target_height_cm": 100,
+                    "post_wait_time_ms": 0,
+                    "cruise_height_cm": 2000,
+                    "target_height_cm": 500,
                     "horizontal_speed_mps": 4.0,
                     "vertical_speed_mps": 1.5
                 }
