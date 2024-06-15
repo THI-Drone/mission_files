@@ -1,0 +1,69 @@
+{
+   "safety": {
+      "geofence": [
+         {
+            "lat": 48.839961439195136,
+            "lon": 11.410792529379663
+         },
+         {
+            "lat": 48.839608015415386,
+            "lon": 11.416251056961562
+         },
+         {
+            "lat": 48.83455644086963,
+            "lon": 11.415353009482589
+         },
+         {
+            "lat": 48.83449835455567,
+            "lon": 11.411261083299904
+         }
+      ],
+      "max_height_cm": 5000,
+      "min_cruise_height_cm": 500,
+      "max_horizontal_speed_mps": 10.0,
+      "max_vertical_speed_mps": 2.5,
+      "min_soc_percent": 25
+   },
+   "markers": {
+      "init": [
+         {
+            "type": "waypoint",
+            "data": {
+               "target_coordinate_lat": 48.838815010519994,
+               "target_coordinate_lon": 11.412588217004581,
+               "pre_wait_time_ms": 1000,
+               "post_wait_time_ms": 100,
+               "cruise_height_cm": 3500,
+               "target_height_cm": 500,
+               "horizontal_speed_mps": 3.0,
+               "vertical_speed_mps": 1.5
+            }
+         },
+         {
+            "type": "detect_marker",
+            "data": {
+               "timeout_ms": 30000
+            }
+         }
+      ],
+      "1": [
+         {
+            "type": "waypoint",
+            "data": {
+               "target_coordinate_lat": 48.838815010519994,
+               "target_coordinate_lon": 11.412588217004581,
+               "pre_wait_time_ms": 0,
+               "post_wait_time_ms": 20000,
+               "cruise_height_cm": 500,
+               "target_height_cm": 100,
+               "horizontal_speed_mps": 3.0,
+               "vertical_speed_mps": 1.0
+            }
+         },
+         {
+            "type": "end_mission",
+            "data": {}
+         }
+      ]
+   }
+}
