@@ -20,7 +20,7 @@
       ],
       "max_height_cm": 5000,
       "min_cruise_height_cm": 500,
-      "max_horizontal_speed_mps": 10.0,
+      "max_horizontal_speed_mps": 6.0,
       "max_vertical_speed_mps": 2.5,
       "min_soc_percent": 25
    },
@@ -34,7 +34,7 @@
                "pre_wait_time_ms": 0,
                "post_wait_time_ms": 0,
                "cruise_height_cm": 2000,
-               "target_height_cm": 500,
+               "target_height_cm": 800,
                "horizontal_speed_mps": 4.0,
                "vertical_speed_mps": 1.5
             }
@@ -53,9 +53,9 @@
                "target_coordinate_lat": 48.768158,
                "target_coordinate_lon": 11.336879,
                "pre_wait_time_ms": 0,
-               "post_wait_time_ms": 10000,
+               "post_wait_time_ms": 20000,
                "cruise_height_cm": 2000,
-               "target_height_cm": 100,
+               "target_height_cm": 200,
                "horizontal_speed_mps": 4.0,
                "vertical_speed_mps": 1.5
             }
