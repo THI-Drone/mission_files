@@ -29,8 +29,8 @@
          {
             "type": "waypoint",
             "data": {
-               "target_coordinate_lat": 48.768158,
-               "target_coordinate_lon": 11.336879,
+               "target_coordinate_lat": 48.7680832,
+               "target_coordinate_lon": 11.3362409,
                "pre_wait_time_ms": 0,
                "post_wait_time_ms": 0,
                "cruise_height_cm": 2000,
@@ -50,8 +50,8 @@
          {
             "type": "waypoint",
             "data": {
-               "target_coordinate_lat": 48.768158,
-               "target_coordinate_lon": 11.336879,
+               "target_coordinate_lat": 48.7681844,
+               "target_coordinate_lon": 11.3360210,
                "pre_wait_time_ms": 0,
                "post_wait_time_ms": 20000,
                "cruise_height_cm": 2000,
